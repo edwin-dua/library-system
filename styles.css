@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.signup-img {
+  width: 300px;
+  height: auto;
+}
+
+.signup-form {
+  min-width: 250px;
+}
+
+img {
+  margin: 20px;
+  border-radius: 10px;
+}
+
+form {
+  margin: 20px auto;
+}
+input[type="text"], input[type="password"] {
+  margin: 5px;
+}

@@ -1,0 +1,7 @@
+<h2>Book List</h2>
+<ul>
+{% for book in books %}
+  <li>{{ book[1] }} by {{ book[2] }}</li>
+{% endfor %}
+</ul>
+<a href="/dashboard">Back to Dashboard</a>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <title>Home</title>
+</head>
+<body>
+  <h1>Welcome to our Library System</h1>
+  <img src="{{ url_for('static', filename='images/firstpage.svg') }}" alt="Welcome Image" width="300"><br>
+  <a href="/signup">Sign Up</a> | <a href="/login">Login</a>
+</body>
+</html>

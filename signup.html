@@ -1,0 +1,12 @@
+<div class="signup-container">
+  <img src="{{ url_for('static', filename='images/signupimg.svg') }}" alt="Sign Up Image" class="signup-img" width="300">
+  <div class="signup-form">
+    <h2>Sign Up</h2>
+    <form method="POST">
+      Username: <input type="text" name="username"><br>
+      Password: <input type="password" name="password"><br>
+      <input type="submit" value="Sign Up">
+    </form>
+    <a href="/login">Already have an account? Login</a>
+  </div>
+</div>
